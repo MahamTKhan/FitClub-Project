@@ -1,0 +1,24 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+    padding: 2rem;
+}
+.nav-menu{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex: 3;
+    gap: 2rem;
+    padding-top: 1.5rem;
+}
+.nav-menu ul li{
+    cursor: pointer;
+}
+.nav-menu ui li:hover{
+    color: orange;
+}
