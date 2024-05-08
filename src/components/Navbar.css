@@ -1,6 +1,7 @@
 .Navbar{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .logo{
@@ -12,13 +13,16 @@
     list-style: none;
     color: white;
     display: flex;
-    flex: 3;
+    flex: 1;
     gap: 2rem;
     padding-top: 1.5rem;
+    margin: auto;
+    margin-left: 12px;
 }
-.nav-menu ul li{
+.nav-menu li{
     cursor: pointer;
 }
-.nav-menu ui li:hover{
+.nav-menu li:hover{
     color: orange;
+    cursor: pointer;
 }

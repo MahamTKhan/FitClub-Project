@@ -1,0 +1,214 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    padding: 3rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right-side{
+    flex: 1;
+    position: relative;
+    background-color: orange;
+    z-index: 1;
+    margin-top:0 ;
+    
+}
+
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: darkgray;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+
+.the-best-ad>div{
+    position: absolute;
+    background-color: orange;
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.Hero-text{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+
+.Hero-text>:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+
+.figures>div>span:nth-of-type(2){
+    color: white;
+    text-transform: uppercase;
+}
+
+.Hero-btns{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+    border: 4px solid transparent;
+    transition: 300ms all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Hero-btns>:nth-child(1){
+
+    color: white;
+    background-color: orange;
+    width: 8rem;
+}
+
+.Hero-btns>:nth-child(2){
+
+    color: white;
+    background-color:transparent;
+    border: 2px solid orange;
+    width: 8rem;
+}
+
+.right-side>btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+
+}
+
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(107, 106, 106);
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+
+}
+
+.heart-rate>img{
+    width: 2rem;
+}
+
+.heart-rate>:nth-child(2){
+    color: gray;
+}
+
+.heart-rate>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.hero-image-back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    width: 15rem;
+    z-index: -1;
+}
+
+.calories{
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 40rem;
+    
+}
+
+.btn{
+    background-color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 4px solid transparent;
+    transition: 300ms all;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.calories>img{
+    width: 3rem;
+}
+
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calories>div>:nth-child(1){
+    color: rgb(188, 185, 185);
+}
+
+.calories>div>:nth-child(2){
+    color: white;
+    font-size: 1.5rem;
+}
+
